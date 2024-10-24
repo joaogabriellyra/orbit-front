@@ -11,7 +11,7 @@ export function RadioGroupItem(props: RadioGroupPrimite.RadioGroupItemProps) {
   return (
     <RadioGroupPrimite.RadioGroupItem
       {...props}
-      className="group bg-black border border-zinc-900 rounded-lg px-4 py-2.5 flex items-center justify-between outline-none hover:border-zinc-700"
+      className="group bg-black border border-zinc-900 rounded-lg px-4 py-2.5 flex items-center justify-between outline-none hover:border-zinc-800 focus-visible:border-pink-500 focus-visible:ring-4 ring-pink-500/10 data-[state=checked]:bg-pink-500/5 data-[state=checked]:border-pink-500"
     />
   )
 }
