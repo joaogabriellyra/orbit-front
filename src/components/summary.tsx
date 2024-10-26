@@ -68,6 +68,9 @@ export function Summary() {
                 <span className="text-zinc-100">Acordar cedo</span>" às{' '}
                 <span className="text-zinc-100">08:13h</span>
               </span>
+              <span className="text-xs leading-relaxed text-zinc-500 underline">
+                Desfazer
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <CheckCircle2 className="size-4 text-pink-500" />
@@ -75,6 +78,9 @@ export function Summary() {
                 Você completou "
                 <span className="text-zinc-100">Acordar cedo</span>" às{' '}
                 <span className="text-zinc-100">08:13h</span>
+              </span>
+              <span className="text-xs leading-relaxed text-zinc-500 underline">
+                Desfazer
               </span>
             </li>
           </ul>
@@ -94,6 +100,9 @@ export function Summary() {
                 Você completou "
                 <span className="text-zinc-100">Acordar cedo</span>" às{' '}
                 <span className="text-zinc-100">08:13h</span>
+              </span>
+              <span className="text-xs leading-relaxed text-zinc-500 underline">
+                Desfazer
               </span>
             </li>
           </ul>
