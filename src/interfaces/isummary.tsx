@@ -6,7 +6,7 @@ export type SummaryType = {
     {
       id: string
       title: string
-      completedAtDate: string
+      completedAt: string
     }[]
   >
 }
